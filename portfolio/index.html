@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>thisohm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!----header--->
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="image/Logo.png">
+                </div>
+
+                <div class="menu-item">
+                    <ul id="menu-res">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa fa-times" onclick="closemenu()" aria-hidden="true"></i>
+                    </ul>
+                    <i class="fa fa-bars" onclick="openmenu()" aria-hidden="true"></i>
+                </div>
+            </div>
+        
+            <div class="content">
+                <h2>Hi There, I'm</h2>
+                <h1>VRIT</h1>
+                <h2>or call me Ohm for short.</h2>
+            </div>
+        </div>
+    </div>
+
+  <!----About Me--->
+
+    <div class="about">
+        <a name="about"></a>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/pro-1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="title">About Me</h1>
+                    <p> The fourth-year student at Thammasat University Bachelor of Science Program in Computer Science who interested in website developer. 
+                        Seeking a front-end developer role to gain more experience for working and improve my skill.</p>
+
+                    <div class="about-tab">
+                        <p class="tab-link active-link" onclick="opentab('menu-1')">Skills & Tools</p>
+                        <p class="tab-link" onclick="opentab('menu-2')">Experience</p>
+                        <p class="tab-link" onclick="opentab('menu-3')">Education</p>
+                    </div>
+                    <div class="tab-menu active-tab" id="menu-1">
+                        <ul>
+                            <li><span>Hard Skills</span><br>Html, Css, Javascript, Java, Git</li>
+                            <li><span>Soft Skills</span><br>Time management, Collaboration, Adaptability</li>
+                            <li><span>Tools</span><br>GitHub GUI, VS Code, Adobe XD, Andriod Studio</li>
+                        </ul>
+                    </div>
+                    <div class="tab-menu" id="menu-2">
+                        <ul>
+                            <li><span>Introduction to software engineering</span><br>Design UX/UI and develop web application.</li>
+                            <li><span>Selected topics in software engineering</span><br>Develop web application with team projects.</li>
+                            <li><span>HUMAN  - Computer interaction </span><br>Design UX/UI and create prototype with Adobe XD.</li>
+                            <li><span>Mobile application development</span><br>Design UX/UI and develop mobile application with android studio.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-menu" id="menu-3">
+                        <ul>
+                            <li><span>2019 - present (Thammasat University)</span><br>Bachelor of Science Program in Computer Science.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----Portfolio--processing-----> 
+
+    <div class="portfolio">
+        <a name="portfolio"></a>
+        <div class="container">
+            <h1 class="title">Portfolio</h1>
+            <div class="port-list">
+                <div class="port">
+                    <img src="image/wait.jpg">
+                </div>
+                <div class="port">
+                    <img src="image/wait.jpg">
+                </div>
+                <div class="port">
+                    <img src="image/wait.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----Contact--->
+
+    <div class="contact">
+        <a name="contact"></a>
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>vroprofile@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>+66 93-327-4298</p>
+                    <a href="https://www.facebook.com/vrit.pipapratuang.5/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/this.ohm/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://github.com/thisohm"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </div>
+                <a href="image/CV.pdf" download="" class="btn-cv">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var menures = document.getElementById("menu-res");
+            function openmenu(){
+                menures.style.right = "0";
+            }  
+            function closemenu(){
+                menures.style.right = "-200px";
+            }
+    
+    </script>
+</body>
+</html>
