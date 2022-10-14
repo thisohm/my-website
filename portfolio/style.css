@@ -24,14 +24,16 @@ body{
 }
 .navbar{
     display: flex;
-    width: 100%;
+    width: 80%;
     align-items: center;
     flex-wrap: wrap;
     padding: 20px 0;
     justify-content: space-between;
-    background: linear-gradient(rgb(51, 51, 51),transparent);
+    background: rgba(5, 5, 5, 0.9);
     border-radius: 15px;
     padding-left: 20px;
+    z-index: 2;
+    position: fixed;
 }
 .logo img{
     width: 150px;
@@ -72,6 +74,7 @@ body{
     position: absolute;
     bottom: 35%;
     right: 3%;
+    z-index: 1;
 }
 .content h2{
     font-size: 70px;
@@ -231,7 +234,9 @@ body{
     display: none;
     cursor: pointer;
 }
-
+.menu-item .fa.fa-bars{
+    padding-right: 20px;
+}
 
 /*----Responsive---*/
 
@@ -248,13 +253,14 @@ body{
     }
     .navbar{
         background: none;
+        position: absolute;
     }
     .menu-item .fa{
         display: block;
         font-size: 25px;
     }
     .menu-item ul{
-        background: linear-gradient(rgb(51, 51, 51),transparent);;
+        background: linear-gradient(rgba(0, 0, 0, 0.8),transparent);
         position: fixed;
         top: 0;
         right: -200px;
