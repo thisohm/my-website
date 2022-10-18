@@ -165,7 +165,7 @@ body{
 
 /*----Portfolio---*/
 
-.portfolio{
+/*.portfolio{
     padding: 50px 0;
 }
 .port-list{
@@ -180,12 +180,20 @@ body{
 .port img{
     width: 100%;
     height: 100%;
-    border: 1px solid #fff;
-}
+}*/
 
 /*----Contact---*/
 .contact-left p{
     font-size: 18px;
+}
+.contact-left a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.contact-left a:hover{
+    color: #607d8b;
+    transform: translateY(-5px);
 }
 .fa.fa-facebook-square, .fa.fa-instagram, .fa.fa-github{
     color: #fff;
@@ -269,7 +277,6 @@ body{
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
-        
     }
     .menu-item ul li{
         display: block;

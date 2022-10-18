@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>thisohm</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +26,6 @@
                     <ul id="menu-res">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="#about">About Me</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <i class="fa fa-times" onclick="closemenu()" aria-hidden="true"></i>
                     </ul>
@@ -54,8 +52,8 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="title">About Me</h1>
-                    <p> The fourth-year student at Thammasat University Bachelor of Science Program in Computer Science who interested in website developer. 
-                        Seeking a front-end developer role to gain more experience for working and improve my skill.</p>
+                    <p>I'm Vrit Pipatpratuang or call me Ohm for short. I'm a fourth-year student who interested in 
+                        website development. Seeking a Software Engineer role to gain more experience for working and improve skills that unprecedented including improve existing skills to be even better.</p>
 
                     <div class="about-tab">
                         <p class="tab-link active-link" onclick="opentab('menu-1')">Skills</p>
@@ -64,14 +62,15 @@
                     </div>
                     <div class="tab-menu active-tab" id="menu-1">
                         <ul>
-                            <li><span>Hard Skills</span><br>Html, Css, Javascript, Java, Git</li>
-                            <li><span>Soft Skills</span><br>Time management, Collaboration, Adaptability</li>
-                            <li><span>Tools</span><br>GitHub GUI, VS Code, Adobe XD, Andriod Studio</li>
+                            <li><span>Languages</span><br>Java, C, JavaScript, SQL, Golang</li>
+                            <li><span>Framework & Library</span><br>Bootstrap, ReactJS</li>
+                            <li><span>Tools</span><br>Git, Docker, Adobe XD, Figma, Android Studio, Tableau</li>
+                            <li><span>Soft Skills</span><br>Time management, Collaboration, Adaptability, Communication, Self-learning</li>
                         </ul>
                     </div>
                     <div class="tab-menu" id="menu-2">
                         <ul>
-                            <li><span>Introduction to software engineering</span><br>Design UX/UI and develop web application.</li>
+                            <li><span>Data Warehousing and Business Intelligence</span><br>Design fact table and dimension table for build a data warehouse with Big Query, and then create views with SQL.</li>
                             <li><span>Selected topics in software engineering</span><br>Develop web application with team projects.</li>
                             <li><span>HUMAN  - Computer interaction </span><br>Design UX/UI and create prototype with Adobe XD.</li>
                             <li><span>Mobile application development</span><br>Design UX/UI and develop mobile application with android studio.</li>
@@ -89,13 +88,13 @@
 
     <!----Portfolio--processing-----> 
 
-    <div class="portfolio">
+    <!--<div class="portfolio">
         <a name="portfolio"></a>
         <div class="container">
             <h1 class="title">Portfolio</h1>
             <div class="port-list">
                 <div class="port">
-                    <img src="image/wait.jpg">
+                    <img src="image/project-1.png">
                 </div>
                 <div class="port">
                     <img src="image/wait.jpg">
@@ -105,7 +104,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!----Contact--->
 
@@ -115,26 +114,19 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="title">Contact Me</h1>
-                    <p><i class="fa fa-envelope" aria-hidden="true"></i>vroprofile@gmail.com</p>
-                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>+66 93-327-4298</p>
+                    <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:vroprofile@gmail.com">vroprofile@gmail.com</a>
+                    <br>
+                    <i class="fa fa-phone-square" aria-hidden="true"></i><a href="tel:0933274298">+66 93-327-4298</a>
+                    <br>
                     <a href="https://www.facebook.com/vrit.pipapratuang.5/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                     <a href="https://www.instagram.com/this.ohm/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     <a href="https://github.com/thisohm"><i class="fa fa-github" aria-hidden="true"></i></a>
                 </div>
-                <a href="image/CV.pdf" download="" class="btn-cv">Download CV</a>
+                <a href="image/Resume.pdf" download="" class="btn-cv">Download CV</a>
             </div>
         </div>
     </div>
-    
-    <script>
-        var menures = document.getElementById("menu-res");
-            function openmenu(){
-                menures.style.right = "0";
-            }  
-            function closemenu(){
-                menures.style.right = "-200px";
-            }
-    
-    </script>
+
+    <script src="javascript.js"></script>
 </body>
 </html>
