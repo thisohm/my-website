@@ -244,10 +244,7 @@ body{
 .port-button:hover{
     background: #607d8b;
 }
-.port:active .overlay {
-    opacity: 0.98;
-}
-.port:hover .overlay {
+.port:hover .overlay ,.port:active .overlay{
     opacity: 0.98;
 }
 .fa-solid.fa-up-right-from-square{
