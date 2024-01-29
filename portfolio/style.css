@@ -379,21 +379,21 @@ body{
     }
     .port-text{
         top:40%;
-        font-size: 15px;
+        font-size: 12px;
     }
     .text-1{
-        font-size: 15px;
+        font-size: 12px;
     }
     .text-2{
-        font-size: 12px;
+        font-size: 9px;
     }
     .port-button{
         top: 86%;
-        font-size: 10px;
+        font-size: 9px;
         padding: 6px;
     }
     .fa-solid.fa-up-right-from-square{
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
