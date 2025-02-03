@@ -165,6 +165,12 @@ body{
 .tab-menu.active-tab{
     display: block;
 }
+.text-project {
+    color: #607d8b;
+}
+.content-body {
+    margin-left: 1rem;
+}
 
 /*----Portfolio---*/
 
